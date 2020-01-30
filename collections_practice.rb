@@ -41,7 +41,7 @@ end
 
 #three ways for this one
 def sum_array(integers)
-  sum = "".to_i
+  sum = 0
   integers.each do |num|
     sum = sum + num
   end
