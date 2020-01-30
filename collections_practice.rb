@@ -39,7 +39,7 @@ def find_a(array)
   array.select {|element| element.start_with?("a")}
 end
 
-sum_array(integers)
+def sum_array(integers)
   integers.inject{|sum, n| sum + n}
 end
 
