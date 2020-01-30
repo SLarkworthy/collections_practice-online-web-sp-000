@@ -57,17 +57,23 @@ def sum_array(integers)
 end
 
 
+# def add_s(array)
+# arrays = []
+#   array.each do |word|
+#     if word != "feet"
+#       arrays << word + "s"
+#     else
+#       arrays << "feet"
+#     end
+#   end
+#   arrays
+# end
+
 def add_s(array)
- arrays = []
-  array.each do |word|
-    if word != "feet"
-      arrays << word + "s"
-    else
-      arrays << "feet"
+  array.each_with_index do |element, index|
+    if index != 1
+      element + "s"
     end
   end
-  arrays
 end
-
-
 
