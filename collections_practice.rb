@@ -61,6 +61,7 @@ def add_s(array)
   array.each do |word|
     unless word == feet
       word + "s"
+    end
   end
 end
 
