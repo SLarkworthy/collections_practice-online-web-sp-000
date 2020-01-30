@@ -39,7 +39,7 @@ def find_a(array)
   array.select {|element| element.start_with?("a")}
 end
 
-three ways for this one
+# three ways for this one
 def sum_array(integers)
   sum = "".to_i
   integers.each do |num|
