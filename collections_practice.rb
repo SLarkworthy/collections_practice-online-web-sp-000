@@ -70,7 +70,7 @@ end
 # end
 
 def add_s(array)
-  array.map_with_index do |element, index|
+  array.map.with_index do |element, index|
     if index != 1
       element + "s"
     end
