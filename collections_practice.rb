@@ -41,7 +41,11 @@ end
 
 #three ways for this one
 def sum_array(integers)
+  sum = ""
   integers.each do |num|
+    sum = sum + num
+  end
+  sum
 end
 
 # def sum_array(integers)
