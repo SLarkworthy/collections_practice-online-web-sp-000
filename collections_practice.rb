@@ -39,22 +39,22 @@ def find_a(array)
   array.select {|element| element.start_with?("a")}
 end
 
-#three ways for this one
-# def sum_array(integers)
-#   sum = 0
-#   integers.each do |num|
-#     sum = sum + num
-#   end
-#   sum
-# end
+three ways for this one
+def sum_array(integers)
+  sum = 0
+  integers.each do |num|
+    sum = sum + num
+  end
+  sum
+end
 
 # def sum_array(integers)
 #   integers.inject{|sum, n| sum + n}
 # end
 
-def sum_array(integers)
-  integers.reduce(:+)
-end
+# def sum_array(integers)
+#   integers.reduce(:+)
+# end
 
 
 
