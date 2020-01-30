@@ -7,6 +7,6 @@ end
 #   integers.sort.reverse
 # end
 
-def sort_array_desc
+def sort_array_desc(integers)
   integers.sort {|a, b| b <=> a}
 end
