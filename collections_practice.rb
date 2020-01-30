@@ -58,8 +58,8 @@ end
 
 
 def add_s(array)
+ arrays = []
   array.each do |word|
-    arrays = []
     if word != "feet"
       arrays << word + "s"
     else
